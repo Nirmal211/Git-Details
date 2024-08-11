@@ -37,21 +37,21 @@
 
 - Command => 
   - git init
-  - git add <filename> , git add .
-  - git commit -m <commit message>  
+  - git add filename , git add .
+  - git commit -m commit message 
   - git status
   - git status -s
   - git log / git log --oneline
 
 - Branch Related Commands :
-  - git branch <nameOfTheBrach> => create branch
+  - git branch nameOfTheBrach => create branch
   - git branch => check all the branches
-  - git switch <nameOfTheBrach> (in which you want to switch) => switch branch
+  - git switch nameOfTheBrach (in which you want to switch) => switch branch
   - git switch -C feature/Header => create and switch branch at the same time. -C means before switch create the branch.
-  - git merge <nameOfTheBranch> => Merge the branch - for merging the branch you first have to come to your main branch using this command -
+  - git merge nameOfTheBranch => Merge the branch - for merging the branch you first have to come to your main branch using this command -
      - git switch main
     and then you can merge the new branch features in your main branch using this command - 
-     - git merge <name of the branch which you want to merge>
+     - git merge name of the branch which you want to merge
 
 - Merging Techniques :
   - fast forward merge
@@ -59,10 +59,10 @@
   - we handled conflicts of three way merge technique
 
 - Delete Branch 
-  - git branch -d <nameOfTheBranch>
+  - git branch -d nameOfTheBranch
 
 - Stashing in Git 
-  - when we make some changes in our file and without adding or staging or commiting if  try to go to the another branch so git gives us error that you will have to commit all your changes otherwise i will delete it or we can say that i will not remember this changes that you did . so for that we do <Stashing> basically git save all the changes in the memeory and then we can go to another  branch and the when we came back to  main branch so that we can take those changes from the memory and apply them in our branch and after that we can commit all our changes.
+  - when we make some changes in our file and without adding or staging or commiting if  try to go to the another branch so git gives us error that you will have to commit all your changes otherwise i will delete it or we can say that i will not remember this changes that you did . so for that we do Stashing basically git save all the changes in the memeory and then we can go to another  branch and the when we came back to  main branch so that we can take those changes from the memory and apply them in our branch and after that we can commit all our changes.
 
   - git stash  // store changes in memory 
   - git stash apply // take those changes from memory to commit.
